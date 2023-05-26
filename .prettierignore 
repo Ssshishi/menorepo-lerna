@@ -1,0 +1,7 @@
+.DS_Store
+.history
+.husky
+dist
+node_modules
+*.local
+pnpm-lock.yaml

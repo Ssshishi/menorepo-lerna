@@ -1,0 +1,20 @@
+{
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "extends": ["airbnb-typescript", "react", "prettier"],
+    "plugins": ["@typescript-eslint", "react-hooks", "import", "promise", "prettier"],
+    "rules": {
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off",
+      "prettier/prettier": "error",
+      "react-hooks/exhaustive-deps": "off",
+      "no-redeclare": "off"
+    },
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  }
+  
